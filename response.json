@@ -1,0 +1,31 @@
+{
+    "links": {
+      "self": "https://YourSite.com/api/index.php/v1/content/articles"
+    },
+    "data": [
+      {
+        "type": "articles",
+        "id": "11",
+        "attributes": {
+          "id": 11,
+          "asset_id": 148,
+          "title": "Typography",
+          "alias": "typography"
+        }
+      },
+      {
+        "type": "articles",
+        "id": "10",
+        "attributes": {
+          "id": 10,
+          "asset_id": 147,
+          "title": "New feature: Workflows",
+          "alias": "new-feature-workflows"
+        }
+      }
+    ],
+    "meta": {
+      "total-pages": 1
+    }
+  }
+  
