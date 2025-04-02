@@ -9,7 +9,6 @@ try {
 } catch (Exception $e) {
     echo 'Error: ' . $e->getMessage();
 }
-
 // Search for articles
 try {
     $articles = $joomla->searchContent('technology');
