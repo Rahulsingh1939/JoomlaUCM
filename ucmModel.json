@@ -1,0 +1,39 @@
+{
+    "id": "unique-id",
+    "type": "article | page | post | custom",
+    "title": "string",
+    "slug": "string",
+    "body": "html | markdown | plain-text",
+    "excerpt": "string",
+    "status": "draft | published | archived",
+    "created_at": "ISO 8601 datetime",
+    "updated_at": "ISO 8601 datetime",
+    "author": {
+      "id": "unique-id",
+      "name": "string",
+      "email": "string"
+    },
+    "categories": [
+      {
+        "id": "unique-id",
+        "name": "string",
+        "slug": "string"
+      }
+    ],
+    "tags": ["string"],
+    "metadata": {
+      "key": "value"
+    },
+    "media": [
+      {
+        "id": "unique-id",
+        "type": "image | video | file",
+        "url": "string",
+        "alt_text": "string",
+        "caption": "string"
+      }
+    ],
+    "custom_fields": {
+      "key": "value"
+    }
+  }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
+    <name>ContentBridge</name>
+    <author>Your Name</author>
+    <creationDate>April 2025</creationDate>
+    <license>GPLv3</license>
+    <description>A component to bridge content between different CMS platforms.</description>
+    <version>1.0.0</version>
+    <files>
+        <filename>contentbridge.php</filename>
+        <folder>controllers</folder>
+        <folder>models</folder>
+        <folder>views</folder>
+        <folder>helpers</folder>
+        <folder>sql</folder>
+    </files>
+    <administration>
+        <menu>ContentBridge</menu>
+        <files folder="admin">
+            <folder>controllers</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+            <folder>helpers</folder>
+            <folder>sql</folder>
+        </files>
+    </administration>
+    <frontend>
+        <files folder="site">
+            <folder>api</folder>
+        </files>
+    </frontend>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+        </sql>
+    </uninstall>
+</extension>
